@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>内容创作助手 Demo</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#f5f6fa;}
+    .sidebar {width:220px; background:#1e2a38; height:100vh; position:fixed; color:#fff; padding:20px;}
+    .sidebar h2 {font-size:18px;}
+    .sidebar ul {list-style:none; padding:0;}
+    .sidebar li {padding:10px 0; border-bottom:1px solid rgba(255,255,255,0.1);} 
+    .main {margin-left:240px; padding:20px;}
+    .card {background:#fff; padding:20px; border-radius:10px; margin-bottom:20px; box-shadow:0 2px 6px rgba(0,0,0,0.05);} 
+    .title {font-size:22px; margin-bottom:10px;}
+    .btn {background:#1677ff; color:#fff; padding:8px 14px; border:none; border-radius:6px; cursor:pointer;}
+    .input {padding:8px; width:100%; margin:8px 0; border:1px solid #ddd; border-radius:6px;}
+    .small {color:#888; font-size:12px;}
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>内容创作助手</h2>
+  <ul>
+    <li>📊 数据面板</li>
+    <li>✍️ 脚本生成</li>
+    <li>🎬 视频优化</li>
+    <li>⚙️ 账号管理</li>
+  </ul>
+</div>
+
+<div class="main">
+
+  <div class="card">
+    <div class="title">📊 数据分析面板</div>
+    <p>账号粉丝：12,430</p>
+    <p>近7天播放量：89,200</p>
+    <p>热门视频建议：优化标题与封面可提升点击率</p>
+  </div>
+
+  <div class="card">
+    <div class="title">✍️ AI脚本生成</div>
+    <input class="input" placeholder="输入视频主题，如：霸总爱情反转剧情" />
+    <button class="btn">生成脚本</button>
+    <p class="small">示例输出：女主意外进入豪门婚姻，隐藏身份引发反转...</p>
+  </div>
+
+  <div class="card">
+    <div class="title">🎬 视频优化建议</div>
+    <p>✔ 建议前3秒加入冲突点</p>
+    <p>✔ 使用情绪化标题提升点击率</p>
+    <p>✔ 封面建议加入人物特写</p>
+  </div>
+
+  <div class="card">
+    <div class="title">🔐 测试账号</div>
+    <p>账号：testuser</p>
+    <p>密码：test1234</p>
+    <p class="small">此为演示系统，无需真实登录</p>
+  </div>
+
+</div>
+
+</body>
+</html>
